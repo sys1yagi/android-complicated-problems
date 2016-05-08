@@ -6,7 +6,7 @@ origin : http://konifar-zatsu.hatenadiary.jp/entry/2016/05/05/002128
 
 [ja](README_ja.md)
 
-1. Even if Activity or Fragment is recreated by a screen rotation we want to continue loading data and display them on a screen (ex. RecyclerView, ListView and more).
+1. We want to continue loading data and display them on a screen (ex. RecyclerView, ListView and more) even if Activity or Fragment is recreated by a screen rotation.
 1. 一覧のロード中に画面が閉じられた時にロードを中止したい。
 1. 一覧でいいねを押してからタップして詳細を開いた。
 1. 一覧でロードエラーが発生した時にリトライしたい。
