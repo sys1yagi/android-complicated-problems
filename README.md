@@ -6,9 +6,9 @@ origin : http://konifar-zatsu.hatenadiary.jp/entry/2016/05/05/002128
 
 [ja](README_ja.md)
 
-1. We want to continue loading data and display them on a screen (ex. RecyclerView, ListView and more) even if Activity or Fragment is recreated by a screen rotation.
-1. 一覧のロード中に画面が閉じられた時にロードを中止したい。
-1. 一覧でいいねを押してからタップして詳細を開いた。
+1. Çontinue loading data and display them on a screen (ex. RecyclerView, 
+1. Cancel loading data when an Activity or Fragment is paused or stopped.
+1. Click button such as Like Button then immediately open next Activity or Fragment. It will destroy the button but should continue the handling.
 1. 一覧でロードエラーが発生した時にリトライしたい。
 1. オフライン状態で一覧画面を開いた。
 1. 一覧のデータが0件の時は大きなレクタングル広告を表示、1件以上の時はフッタにバナー広告を表示したい。
