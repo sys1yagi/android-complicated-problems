@@ -6,7 +6,7 @@ origin : http://konifar-zatsu.hatenadiary.jp/entry/2016/05/05/002128
 
 [ja](README_ja.md)
 
-1. Continue loading data and display them on a screen (ex. RecyclerView, 
+1. Continue loading data and display them on a screen (ex. RecyclerView, ListView and more)
 2. Cancel loading data when an Activity or Fragment is paused or stopped.
 3. Click button such as Like Button then immediately open next Activity or Fragment. It will destroy the button but should continue the handling.
 4. Allow to retry if load of content failed..
