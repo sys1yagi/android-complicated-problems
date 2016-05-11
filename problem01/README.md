@@ -1,5 +1,7 @@
 # Continue loading data and display them on a screen (ex. RecyclerView, ListView and more)
 
+[en](README_ja.md)
+
 TODO: abstract
 
 ## Categoriy
