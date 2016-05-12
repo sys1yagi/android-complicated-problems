@@ -18,51 +18,48 @@ Androidアプリケーション開発における複雑な問題を統合的に�
 
 [en](README.md)
 
-TODO problemxxのreadmeにリンクする、カテゴリを削除する
-
 1. 一覧のロード中に画面の向きが変更された時にそのままロードと表示させたい。
-   - 非同期処理
-   - 画面の破棄
-   - 処理の継続
 1. 一覧のロード中に画面が閉じられた時にロードを中止したい。
-   - 非同期処理
-   - 処理の中断
 1. 一覧でいいねを押してからタップして詳細を開いた。
-   - 非同期処理
-   - 画面の破棄
-   - 処理の継続
 1. 一覧でロードエラーが発生した時にリトライしたい。
-   - 非同期処理
-   - 処理の失敗
-   - リトライ
 1. オフライン状態で一覧画面を開いた。
-   - 非同期処理
-   - 処理の失敗
 1. 一覧のデータが0件の時は大きなレクタングル広告を表示、1件以上の時はフッタにバナー広告を表示したい。
-   - 非同期処理
-   - 取得結果の内容による分岐
 1. 一覧の上部に特集一覧を表示する時、2つのロードをいい感じにしたい。
-   - 非同期処理の合成
 1. 一覧の2つ目と8つ目にネイティブ広告を表示したい。表示の速度も考慮してプリロードもしておきたい。
-   - プリロード
-   - 複数種類の要素をListに表示する
 1. メッセージ画面でメッセージを送信する時、リクエストが成功する前に画面に表示させたい。
-   - 非同期処理
-   - 仮想的な応答性
 1. メッセージ画面でメッセージを送信失敗した時、リトライしたい。
-   - 非同期処理
-   - 仮想的な応答性の切り戻し
 1. 低ネットワーク環境下では低画質の画像を表示したい。
-   - 最適化 
 1. wi-fiにつないでいる場合のみ、プリロードして表示を高速化したい。
-   - 最適化
-   - プリロード
 1. いいねボタンを含む一覧があり、そこから詳細画面に遷移しいいねを押す。一覧に復帰した時にいいねの状態が反映されている。
-   - 状態の反映
 1. 画面に復帰したとき最初のロードから5分以上経過していたら再ロードしたい
-   - リロード
-   - キャッシュ
 
 # App specification
 
 TODO : 上記の問題を全て含むアプリケーションの仕様を定義する
+
+
+# LICENSE
+
+```
+The MIT License (MIT)
+
+Copyright (c) 2016 Toshihiro Yagi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
